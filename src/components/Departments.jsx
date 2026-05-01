@@ -2,7 +2,9 @@ import React from 'react'
 
 const Departments = () => {
   return (
-    <div>Departments</div>
+    <div>
+        <h1>hello</h1>
+    </div>
   )
 }
 
