@@ -9,22 +9,27 @@ import Departments from './components/Departments'
 import Doctors from './components/Doctors'
 import Appointment from './components/Appointment'
 
+
 const App = () => {
   return (
     <>
+
       <BrowserRouter>
-      <Navbar/>
+
+        <Navbar />
+
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About />} />
           <Route path='/Facilities' element={<Facilities />} />
           <Route path='/Departments' element={<Departments />} />
           <Route path='/Doctors' element={<Doctors />} />
-          <Route path='/Appointmet' element={<Appointment />} />
+          <Route path='/Appointment' element={<Appointment />} />
           <Route path='/Contact' element={<Contact />} />
-          
+
         </Routes>
       </BrowserRouter>
+
     </>
   )
 }
